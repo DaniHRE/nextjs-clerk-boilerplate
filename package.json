@@ -1,7 +1,15 @@
 {
-  "name": "workline",
-  "version": "0.1.0",
-  "private": true,
+  "name": "next-clerk-boilerplate",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A Next.js boilerplate with Clerk authentication, Tailwind CSS, and Radix UI components.",
+  "author": "DaniHRE",
+  "license": "MIT",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaniHRE/nextjs-clerk-boilerplate"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
