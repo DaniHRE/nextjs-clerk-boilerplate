@@ -31,7 +31,7 @@ A modern, production-ready boilerplate for building web applications with Next.j
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/nextjs-clerk-boilerplate.git
+git clone https://github.com/DaniHRE/nextjs-clerk-boilerplate.git
 cd nextjs-clerk-boilerplate
 ```
 
