@@ -100,7 +100,7 @@ export default async function SamplePage() {
                       <Badge variant="outline" className="bg-blue-50">
                         New
                       </Badge>
-                      <span>Project "Boilerplate" created</span>
+                      <span>Project &quot;Boilerplate&quot; created</span>
                     </li>
                     <li className="flex items-center gap-2 text-sm">
                       <Badge variant="outline" className="bg-green-50">
@@ -112,7 +112,7 @@ export default async function SamplePage() {
                       <Badge variant="outline" className="bg-amber-50">
                         Task
                       </Badge>
-                      <span>Completed "Setup Authentication"</span>
+                      <span>Completed &quot;Setup Authentication&quot;</span>
                     </li>
                   </ul>
                 </CardContent>

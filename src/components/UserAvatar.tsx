@@ -8,14 +8,13 @@ import {
     DropdownMenuTrigger
 } from '@/components/ui/dropdown-menu'
 import { toast } from 'sonner'
-import { getInitials } from '../utils'
-// import AddUser from './AddUser'
-// import ChangePassword from './ChangePassword'
 import { Lock, SignOut, User } from '@phosphor-icons/react'
 import { useUser, useClerk, UserButton } from '@clerk/nextjs'
 
 const UserAvatar = () => {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [open, setOpen] = useState(false)
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [openPassword, setOpenPassword] = useState(false)
     const { user, isLoaded } = useUser()
     const { signOut } = useClerk()
@@ -25,6 +24,7 @@ const UserAvatar = () => {
             await signOut()
             window.location.href = "/logout"
         } catch (error) {
+            console.error('Logout error:', error)
             toast.error('Something went wrong. Please try again.')
         }
     }
